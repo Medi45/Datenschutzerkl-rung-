@@ -1,19 +1,53 @@
-DATENSCHUTZERKLÄRUNG (VERIFIZIERTE VERSION)Stand: 27. Januar 2026
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Datenschutzerklärung - MMT4573</title>
+    <style>
+        body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif; line-height: 1.6; color: #333; max-width: 800px; margin: 0 auto; padding: 20px; background-color: #f4f4f9; }
+        .container { background: white; padding: 30px; border-radius: 8px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); }
+        h1 { color: #000; border-bottom: 2px solid #333; padding-bottom: 10px; font-size: 1.5rem; }
+        h2 { color: #444; font-size: 1.1rem; margin-top: 25px; text-transform: uppercase; }
+        p { margin-bottom: 15px; white-space: pre-wrap; }
+        .date { font-weight: bold; color: #666; margin-bottom: 30px; }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>DATENSCHUTZERKLÄRUNG (VERIFIZIERTE VERSION)</h1>
+        <p class="date">Stand: 27. Januar 2026</p>
 
-1. LOKALE DATEN-SOUVERÄNITÄTMMT4573 arbeitet nach dem Prinzip der absoluten lokalen Verarbeitung. Sämtliche Analysen und Passwörter verbleiben in der isolierten Sandbox Ihrer App auf diesem Gerät.
+        <h2>1. LOKALE DATEN-SOUVERÄNITÄT</h2>
+        <p>MMT4573 arbeitet nach dem Prinzip der absoluten lokalen Verarbeitung. Sämtliche Analysen und Passwörter verbleiben in der isolierten Sandbox Ihrer App auf diesem Gerät.</p>
 
-2. SYSTEM-AUDIT & HEURISTIK-SCANUm Bedrohungen zu identifizieren, analysiert die App lokal:• PAKET-METADATEN: Abgleich installierter Apps zur Risiko-Bewertung.• BERECHTIGUNGEN: Prüfung auf kritische Systemzugriffe (z.B. SMS, Kamera).• ROOT-DETEKTION: Prüfung auf System-Manipulationen zur Bewertung der Laufzeitumgebung.Diese Daten werden flüchtig im RAM verarbeitet und niemals dauerhaft gespeichert.
+        <h2>2. SYSTEM-AUDIT & HEURISTIK-SCAN</h2>
+        <p>Um Bedrohungen zu identifizieren, analysiert die App lokal:
+• PAKET-METADATEN: Abgleich installierter Apps zur Risiko-Bewertung.
+• BERECHTIGUNGEN: Prüfung auf kritische Systemzugriffe (z.B. SMS, Kamera).
+• ROOT-DETEKTION: Prüfung auf System-Manipulationen zur Bewertung der Laufzeitumgebung.
+Diese Daten werden flüchtig im RAM verarbeitet und niemals dauerhaft gespeichert.</p>
 
-3. HARDWARE-GEBUNDENE VERSCHLÜSSELUNGZur Sicherung Ihrer Daten nutzt MMT4573 eine hardwarebasierte AES-Verschlüsselung. Der Schlüssel wird unter Einbeziehung der einzigartigen Android-ID Ihres Geräts generiert, sodass Daten auf keinem anderen Gerät dechiffriert werden können.
+        <h2>3. HARDWARE-GEBUNDENE VERSCHLÜSSELUNG</h2>
+        <p>Zur Sicherung Ihrer Daten nutzt MMT4573 eine hardwarebasierte AES-Verschlüsselung. Der Schlüssel wird unter Einbeziehung der einzigartigen Android-ID Ihres Geräts generiert, sodass Daten auf keinem anderen Gerät dechiffriert werden können.</p>
 
-4. WLAN-ADVISOR & VERTRAUENS-LISTEDie App analysiert technische Parameter Ihres Netzwerks (SSID, BSSID). Nutzerdefinierte „Vertrauenswürdige Netzwerke“ werden ausschließlich lokal in einem verschlüsselten Container gespeichert. Es findet kein Abgleich mit externen Datenbanken statt.
+        <h2>4. WLAN-ADVISOR & VERTRAUENS-LISTE</h2>
+        <p>Die App analysiert technische Parameter Ihres Netzwerks (SSID, BSSID). Nutzerdefinierte „Vertrauenswürdige Netzwerke“ werden ausschließlich lokal in einem verschlüsselten Container gespeichert. Es findet kein Abgleich mit externen Datenbanken statt.</p>
 
-5. FIREBASE NEWS-SERVICEZum Empfang von Sicherheits-Warnungen nutzt die App Google Firebase. Dabei wird eine anonymisierte Instanz-ID generiert. Es werden keine persönlichen Scan-Ergebnisse oder Passwörter an Google übertragen.
+        <h2>5. FIREBASE NEWS-SERVICE</h2>
+        <p>Zum Empfang von Sicherheits-Warnungen nutzt die App Google Firebase. Dabei wird eine anonymisierte Instanz-ID generiert. Es werden keine persönlichen Scan-Ergebnisse oder Passwörter an Google übertragen.</p>
 
-6. BIOMETRIE-INTEGRATION & SPERREDie biometrische Entsperrung nutzt den Android-Systemstandard. Nach 5 Fehlversuchen wird der Zugriff für 30 Minuten blockiert (Anti-Brute-Force). Die Sperrzeit wird persistent in den App-Einstellungen verwaltet.
+        <h2>6. BIOMETRIE-INTEGRATION & SPERRE</h2>
+        <p>Die biometrische Entsperrung nutzt den Android-Systemstandard. Nach 5 Fehlversuchen wird der Zugriff für 30 Minuten blockiert (Anti-Brute-Force). Die Sperrzeit wird persistent in den App-Einstellungen verwaltet.</p>
 
-7. SICHERER PASSWORT-GENERATORDer Generator nutzt „SecureRandom“ für maximale Entropie. Erzeugte Passwörter werden nach dem Schließen der Ansicht sofort aus dem flüchtigen Speicher gelöscht (Zeroing).
+        <h2>7. SICHERER PASSWORT-GENERATOR</h2>
+        <p>Der Generator nutzt „SecureRandom“ für maximale Entropie. Erzeugte Passwörter werden nach dem Schließen der Ansicht sofort aus dem flüchtigen Speicher gelöscht (Zeroing).</p>
 
-8. DISPLAY-SCHUTZ (FLAG_SECURE)Zum Schutz vor Spionage-Apps wird das Erstellen von Screenshots sowie die Anzeige der App-Inhalte in der Liste der zuletzt geöffneten Apps unterbunden.
+        <h2>8. DISPLAY-SCHUTZ (FLAG_SECURE)</h2>
+        <p>Zum Schutz vor Spionage-Apps wird das Erstellen von Screenshots sowie die Anzeige der App-Inhalte in der Liste der zuletzt geöffneten Apps unterbunden.</p>
 
-9. VOLLSTÄNDIGE DATENLÖSCHUNGÜber die Reset-Funktion oder das Löschen der App-Daten werden alle kryptographischen Schlüssel und gespeicherten Informationen unwiderruflich vernichtet.
+        <h2>9. VOLLSTÄNDIGE DATENLÖSCHUNG</h2>
+        <p>Über die Reset-Funktion oder das Löschen der App-Daten werden alle kryptographischen Schlüssel und gespeicherten Informationen unwiderruflich vernichtet.</p>
+    </div>
+</body>
+</html>
