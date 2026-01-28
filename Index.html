@@ -1,0 +1,19 @@
+DATENSCHUTZERKLÄRUNG (VERIFIZIERTE VERSION)Stand: 27. Januar 2026
+
+1. LOKALE DATEN-SOUVERÄNITÄTMMT4573 arbeitet nach dem Prinzip der absoluten lokalen Verarbeitung. Sämtliche Analysen und Passwörter verbleiben in der isolierten Sandbox Ihrer App auf diesem Gerät.
+
+2. SYSTEM-AUDIT & HEURISTIK-SCANUm Bedrohungen zu identifizieren, analysiert die App lokal:• PAKET-METADATEN: Abgleich installierter Apps zur Risiko-Bewertung.• BERECHTIGUNGEN: Prüfung auf kritische Systemzugriffe (z.B. SMS, Kamera).• ROOT-DETEKTION: Prüfung auf System-Manipulationen zur Bewertung der Laufzeitumgebung.Diese Daten werden flüchtig im RAM verarbeitet und niemals dauerhaft gespeichert.
+
+3. HARDWARE-GEBUNDENE VERSCHLÜSSELUNGZur Sicherung Ihrer Daten nutzt MMT4573 eine hardwarebasierte AES-Verschlüsselung. Der Schlüssel wird unter Einbeziehung der einzigartigen Android-ID Ihres Geräts generiert, sodass Daten auf keinem anderen Gerät dechiffriert werden können.
+
+4. WLAN-ADVISOR & VERTRAUENS-LISTEDie App analysiert technische Parameter Ihres Netzwerks (SSID, BSSID). Nutzerdefinierte „Vertrauenswürdige Netzwerke“ werden ausschließlich lokal in einem verschlüsselten Container gespeichert. Es findet kein Abgleich mit externen Datenbanken statt.
+
+5. FIREBASE NEWS-SERVICEZum Empfang von Sicherheits-Warnungen nutzt die App Google Firebase. Dabei wird eine anonymisierte Instanz-ID generiert. Es werden keine persönlichen Scan-Ergebnisse oder Passwörter an Google übertragen.
+
+6. BIOMETRIE-INTEGRATION & SPERREDie biometrische Entsperrung nutzt den Android-Systemstandard. Nach 5 Fehlversuchen wird der Zugriff für 30 Minuten blockiert (Anti-Brute-Force). Die Sperrzeit wird persistent in den App-Einstellungen verwaltet.
+
+7. SICHERER PASSWORT-GENERATORDer Generator nutzt „SecureRandom“ für maximale Entropie. Erzeugte Passwörter werden nach dem Schließen der Ansicht sofort aus dem flüchtigen Speicher gelöscht (Zeroing).
+
+8. DISPLAY-SCHUTZ (FLAG_SECURE)Zum Schutz vor Spionage-Apps wird das Erstellen von Screenshots sowie die Anzeige der App-Inhalte in der Liste der zuletzt geöffneten Apps unterbunden.
+
+9. VOLLSTÄNDIGE DATENLÖSCHUNGÜber die Reset-Funktion oder das Löschen der App-Daten werden alle kryptographischen Schlüssel und gespeicherten Informationen unwiderruflich vernichtet.
